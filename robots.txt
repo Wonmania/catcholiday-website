@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://catcholiday.com/sitemap.xml
