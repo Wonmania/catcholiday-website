@@ -14,3 +14,16 @@ if (new URLSearchParams(location.search).get('katilim') === 'basarili') {
   document.querySelector('.toast').classList.add('show');
   history.replaceState({}, '', `${location.pathname}#erken-erisim`);
 }
+
+const legalCompanyName = '90 Plus Internet Hızmetleri Ticaret Limited Şirketi';
+if (document.body.classList.contains('subpage')) {
+  const ownerCard = document.createElement('div');
+  ownerCard.className = 'legal-owner';
+  ownerCard.innerHTML = `<small>RESMÎ ŞİRKET UNVANI</small><strong>${legalCompanyName}</strong>`;
+  const policyAnchor = document.querySelector('.policy-card .updated');
+  const contactAnchor = document.querySelector('.contact-info h2');
+  const aboutAnchor = document.querySelector('.company-grid');
+  if (policyAnchor) policyAnchor.insertAdjacentElement('afterend', ownerCard);
+  else if (contactAnchor) contactAnchor.insertAdjacentElement('afterend', ownerCard);
+  else if (aboutAnchor) aboutAnchor.insertAdjacentElement('afterend', ownerCard);
+}
