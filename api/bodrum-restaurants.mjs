@@ -9,6 +9,12 @@ const safeUrl = (value) => {
   }
 };
 
+const imageUrl = (value) => {
+  const url = safeUrl(value);
+  if (!url) return null;
+  return url.replace(/=w\d+-h\d+-k-no(?:-[a-z]+)?$/i, '=w900-h600-k-no');
+};
+
 const mapUrl = (place) => {
   const query = encodeURIComponent([place.title, place.address].filter(Boolean).join(' '));
   const id = place.place_id ? `&query_place_id=${encodeURIComponent(place.place_id)}` : '';
@@ -62,7 +68,7 @@ export default async function handler(request, response) {
         address: item.address || 'Bodrum, Muğla',
         openState: item.open_state || item.hours || null,
         website: safeUrl(item.website),
-        image: safeUrl(item.thumbnail) || safeUrl(Array.isArray(item.images) ? item.images[0] : null),
+        image: imageUrl(item.thumbnail) || imageUrl(Array.isArray(item.images) ? item.images[0] : null),
         mapUrl: mapUrl(item),
       }));
 
