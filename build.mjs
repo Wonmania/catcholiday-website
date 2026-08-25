@@ -8,3 +8,4 @@ for (const file of ['index.html', 'hakkimizda.html', 'iletisim.html', 'gizlilik-
   await cp(file, `dist/${file}`);
 }
 await cp('assets', 'dist/assets', { recursive: true });
+await cp('bodrum', 'dist/bodrum', { recursive: true });
