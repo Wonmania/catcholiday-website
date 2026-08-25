@@ -1,0 +1,12 @@
+const root = document.documentElement;
+const slug = root.dataset.slug;
+const list = document.querySelector('#hotel-list');
+const stories = document.querySelector('#hotel-stories');
+const cover = document.querySelector('#destination-cover');
+const fmt = new Intl.NumberFormat('tr-TR');
+const esc = (v = '') => String(v).replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+const href = (v) => { try { const u = new URL(v); return ['http:','https:'].includes(u.protocol) ? u.href : '#'; } catch { return '#'; } };
+const hotelCard = h => `<article class="hotel-card">${h.image ? `<img src="${href(h.image)}" alt="${esc(h.name)}" loading="lazy">` : '<div class="hotel-photo-fallback"></div>'}<div class="hotel-card-copy"><span>${String(h.rank).padStart(2,'0')} • ${h.hotelClass ? `${h.hotelClass} YILDIZ` : 'OTEL'}</span><h3>${esc(h.name)}</h3><div class="hotel-facts"><b>★ ${h.rating.toFixed(1)}</b><small>${fmt.format(h.reviews)} değerlendirme</small>${h.price ? `<strong>${esc(h.price)}</strong>` : ''}</div>${h.link ? `<a href="${href(h.link)}" target="_blank" rel="noopener noreferrer nofollow">Oteli incele →</a>` : ''}</div></article>`;
+const hotelStory = h => `<article class="hotel-story">${h.image ? `<img src="${href(h.image)}" alt="${esc(h.name)}" loading="lazy">` : ''}<div><span>${String(h.rank).padStart(2,'0')} • OTEL REHBERİ</span><h3>${esc(h.name)}</h3><p><strong>${esc(h.name)}</strong>, ${h.rating.toFixed(1)} puanı ve ${fmt.format(h.reviews)} değerlendirmesiyle bu seçkide yer alıyor. ${h.description ? esc(h.description) : 'Konumu ve konaklama olanaklarıyla destinasyonda değerlendirilebilecek tesislerden biri.'} Rezervasyon öncesinde oda, pansiyon, vergi ve iptal koşullarını sağlayıcı ekranında karşılaştırın.</p>${h.amenities.length ? `<ul>${h.amenities.map(a=>`<li>${esc(a)}</li>`).join('')}</ul>` : ''}${h.link ? `<a href="${href(h.link)}" target="_blank" rel="noopener noreferrer nofollow">Güncel seçenekleri gör →</a>` : ''}</div></article>`;
+async function load(){ try { const r=await fetch(`/api/destination-hotels?slug=${encodeURIComponent(slug)}`); if(!r.ok) throw new Error(); const d=await r.json(); list.innerHTML=d.hotels.map(hotelCard).join(''); stories.innerHTML=d.hotels.map(hotelStory).join(''); if(d.hotels[0]?.image){cover.src=href(d.hotels[0].image);cover.hidden=false;} } catch { list.innerHTML='<div class="hotel-error"><b>Otel seçkisi güncelleniyor.</b><p>Kısa süre sonra tekrar deneyin.</p></div>'; } }
+load();

@@ -10,3 +10,4 @@ for (const file of ['index.html', 'hakkimizda.html', 'iletisim.html', 'gizlilik-
 await cp('assets', 'dist/assets', { recursive: true });
 await cp('bodrum', 'dist/bodrum', { recursive: true });
 await cp('bodrum/en-iyi-restoranlar.html', 'dist/bodrumun-en-iyi-10-restorani.html');
+await import('./scripts/generate-hotel-pages.mjs');
