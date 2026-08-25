@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://catcholiday.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://catcholiday.com/hakkimizda.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://catcholiday.com/iletisim.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://catcholiday.com/gizlilik-kvkk.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://catcholiday.com/kullanim-kosullari.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://catcholiday.com/affiliate-aciklamasi.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://www.catcholiday.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://www.catcholiday.com/hakkimizda</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.catcholiday.com/iletisim</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.catcholiday.com/gizlilik-kvkk</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://www.catcholiday.com/kullanim-kosullari</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://www.catcholiday.com/affiliate-aciklamasi</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://www.catcholiday.com/bodrumun-en-iyi-10-restorani</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 </urlset>
