@@ -12,7 +12,11 @@ const destinations = new Map([
   ['didimin-en-iyi-10-oteli', 'Didim, Aydın'], ['yalikavakin-en-iyi-10-oteli', 'Yalıkavak, Bodrum, Muğla'],
 ]);
 const safeUrl = (value) => { try { const url = new URL(value); return ['http:', 'https:'].includes(url.protocol) ? url.href : null; } catch { return null; } };
-const imageUrl = (item) => safeUrl(item?.original || item?.thumbnail || item);
+const imageUrl = (item) => {
+  const url = safeUrl(item?.thumbnail || item?.original || item);
+  if (!url) return null;
+  return url.replace(/=s\d+-w\d+-h\d+[^?]*$/i, '=w900-h600-k-no');
+};
 const date = (days) => { const d = new Date(); d.setUTCDate(d.getUTCDate() + days); return d.toISOString().slice(0, 10); };
 const score = (hotel) => { const rating = Number(hotel.rating || 0); const reviews = Number(hotel.reviews || 0); return rating * (reviews / (reviews + 300)) + 4.1 * (300 / (reviews + 300)); };
 
