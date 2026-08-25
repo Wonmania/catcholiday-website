@@ -62,6 +62,7 @@ export default async function handler(request, response) {
         address: item.address || 'Bodrum, Muğla',
         openState: item.open_state || item.hours || null,
         website: safeUrl(item.website),
+        image: safeUrl(item.thumbnail) || safeUrl(Array.isArray(item.images) ? item.images[0] : null),
         mapUrl: mapUrl(item),
       }));
 
