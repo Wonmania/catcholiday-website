@@ -25,7 +25,7 @@ const card = (restaurant) => `<article class="restaurant-card">
   <div class="rank"><small>NO.</small><strong>${restaurant.rank}</strong></div>
   <div class="restaurant-main">
     <div class="restaurant-top"><span class="category">${escapeHtml(restaurant.category)}</span>${stateLabel(restaurant.openState)}</div>
-    <h2>${escapeHtml(restaurant.name)}</h2>
+    <h3>${escapeHtml(restaurant.name)}</h3>
     <p class="address">⌖ ${escapeHtml(restaurant.address)}</p>
     <div class="restaurant-meta"><span class="rating"><b>★ ${restaurant.rating.toFixed(1)}</b><small>${number.format(restaurant.reviews)} değerlendirme</small></span>${restaurant.price ? `<span class="price">${escapeHtml(restaurant.price)}</span>` : ''}</div>
   </div>
