@@ -3,5 +3,12 @@
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/bodrum/en-iyi-restoranlar",
+      "destination": "/bodrumun-en-iyi-10-restorani",
+      "permanent": true
+    }
+  ]
 }

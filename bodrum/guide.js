@@ -1,5 +1,6 @@
 const list = document.querySelector('#restaurant-list');
 const errorBox = document.querySelector('#restaurant-error');
+const stories = document.querySelector('#restaurant-stories');
 const number = new Intl.NumberFormat('tr-TR');
 
 const escapeHtml = (value = '') => String(value).replace(/[&<>'"]/g, (char) => ({
@@ -35,6 +36,21 @@ const card = (restaurant) => `<article class="restaurant-card">
   </div>
 </article>`;
 
+const districtFrom = (address = '') => address.split(',')[0]?.trim() || 'Bodrum';
+const story = (restaurant) => {
+  const district = districtFrom(restaurant.address);
+  const category = restaurant.category || 'restoran';
+  return `<article class="restaurant-story">
+    <div class="story-rank">${String(restaurant.rank).padStart(2, '0')}</div>
+    <div>
+      <span class="story-category">${escapeHtml(district)} • ${escapeHtml(category)}</span>
+      <h3>${escapeHtml(restaurant.name)}</h3>
+      <p><strong>${escapeHtml(restaurant.name)}</strong>, ${escapeHtml(district)} çevresinde ${escapeHtml(category.toLocaleLowerCase('tr-TR'))} arayanların değerlendirebileceği seçeneklerden biri. ${restaurant.rating.toFixed(1)} puanı ve ${number.format(restaurant.reviews)} değerlendirmesiyle listedeki yerini alıyor. Konumu sayesinde Bodrum planınıza kolayca ekleyebilir, gitmeden önce çalışma saatlerini ve rezervasyon durumunu kontrol edebilirsiniz.</p>
+      <div class="story-links">${restaurant.website ? `<a href="${safeHref(restaurant.website)}" target="_blank" rel="noopener noreferrer nofollow">Restoranın web sitesi ↗</a>` : ''}<a href="${safeHref(restaurant.mapUrl)}" target="_blank" rel="noopener noreferrer nofollow">Haritada incele →</a></div>
+    </div>
+  </article>`;
+};
+
 async function loadRestaurants() {
   errorBox.hidden = true;
   list.innerHTML = '<div class="restaurant-loading"><span></span><span></span><span></span><p>Restoranlar hazırlanıyor…</p></div>';
@@ -44,8 +60,10 @@ async function loadRestaurants() {
     const payload = await response.json();
     if (!Array.isArray(payload.restaurants) || !payload.restaurants.length) throw new Error('empty');
     list.innerHTML = payload.restaurants.map(card).join('');
+    stories.innerHTML = payload.restaurants.map(story).join('');
   } catch {
     list.innerHTML = '';
+    stories.innerHTML = '';
     errorBox.hidden = false;
   }
 }
