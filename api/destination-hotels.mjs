@@ -10,6 +10,16 @@ const destinations = new Map([
   ['kusadasinin-en-iyi-10-oteli', 'Kuşadası, Aydın'], ['goremenin-en-iyi-10-oteli', 'Göreme, Nevşehir'],
   ['kalkanin-en-iyi-10-oteli', 'Kalkan, Kaş, Antalya'], ['kasin-en-iyi-10-oteli', 'Kaş, Antalya'],
   ['didimin-en-iyi-10-oteli', 'Didim, Aydın'], ['yalikavakin-en-iyi-10-oteli', 'Yalıkavak, Bodrum, Muğla'],
+  ['beyoglunun-en-iyi-10-oteli', 'Beyoğlu, İstanbul'], ['kapadokyanin-en-iyi-10-oteli', 'Kapadokya, Nevşehir'],
+  ['urgupun-en-iyi-10-oteli', 'Ürgüp, Nevşehir'], ['dalyanin-en-iyi-10-oteli', 'Dalyan, Ortaca, Muğla'],
+  ['sarigermenin-en-iyi-10-oteli', 'Sarıgerme, Ortaca, Muğla'], ['gumbetin-en-iyi-10-oteli', 'Gümbet, Bodrum, Muğla'],
+  ['bitezin-en-iyi-10-oteli', 'Bitez, Bodrum, Muğla'], ['turgutreisin-en-iyi-10-oteli', 'Turgutreis, Bodrum, Muğla'],
+  ['gumuslugun-en-iyi-10-oteli', 'Gümüşlük, Bodrum, Muğla'], ['torbanin-en-iyi-10-oteli', 'Torba, Bodrum, Muğla'],
+  ['turkbukunun-en-iyi-10-oteli', 'Türkbükü, Bodrum, Muğla'], ['akyarlarin-en-iyi-10-oteli', 'Akyarlar, Bodrum, Muğla'],
+  ['gocekin-en-iyi-10-oteli', 'Göcek, Fethiye, Muğla'], ['hisaronunun-en-iyi-10-oteli', 'Hisarönü, Fethiye, Muğla'],
+  ['ovacikin-en-iyi-10-oteli', 'Ovacık, Fethiye, Muğla'], ['kabak-koyunun-en-iyi-10-oteli', 'Kabak Koyu, Fethiye, Muğla'],
+  ['adrasanin-en-iyi-10-oteli', 'Adrasan, Kumluca, Antalya'], ['olymposun-en-iyi-10-oteli', 'Olympos, Kumluca, Antalya'],
+  ['ciralinin-en-iyi-10-oteli', 'Çıralı, Kemer, Antalya'], ['tekirovanin-en-iyi-10-oteli', 'Tekirova, Kemer, Antalya'],
 ]);
 const safeUrl = (value) => { try { const url = new URL(value); return ['http:', 'https:'].includes(url.protocol) ? url.href : null; } catch { return null; } };
 const imageUrl = (item) => {
