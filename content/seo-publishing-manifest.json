@@ -4,52 +4,272 @@
   "dailyPublishLimit": 20,
   "templateReference": "/bodrumun-en-iyi-10-restorani",
   "topics": [
-    { "order": 1, "key": "best-hotels", "titlePattern": "{possessive} En İyi 10 Oteli" },
-    { "order": 2, "key": "best-restaurants", "titlePattern": "{possessive} En İyi 10 Restoranı" },
-    { "order": 3, "key": "places-to-visit", "titlePattern": "{name}'da Gezilecek En Güzel 20 Yer" },
-    { "order": 4, "key": "best-beaches", "titlePattern": "{possessive} En Güzel 10 Plajı" },
-    { "order": 5, "key": "best-bays", "titlePattern": "{possessive} En Güzel Koyları" },
-    { "order": 6, "key": "where-to-stay", "titlePattern": "{name}'da Nerede Kalınır?" },
-    { "order": 7, "key": "all-inclusive-hotels", "titlePattern": "{possessive} En İyi Her Şey Dahil Otelleri" },
-    { "order": 8, "key": "five-star-hotels", "titlePattern": "{possessive} En İyi 5 Yıldızlı Otelleri" },
-    { "order": 9, "key": "beachfront-hotels", "titlePattern": "{possessive} En İyi Denize Sıfır Otelleri" },
-    { "order": 10, "key": "boutique-hotels", "titlePattern": "{possessive} En İyi Butik Otelleri" },
-    { "order": 11, "key": "what-to-eat", "titlePattern": "{name}'da Ne Yenir? En İyi Yemekler ve Mekanlar" },
-    { "order": 12, "key": "beach-clubs", "titlePattern": "{possessive} En İyi Beach Club'ları" },
-    { "order": 13, "key": "nightlife", "titlePattern": "{name} Gece Hayatı: En İyi Bar ve Gece Kulüpleri" },
-    { "order": 14, "key": "activities", "titlePattern": "{name}'da Yapılacak En Güzel 20 Aktivite" },
-    { "order": 15, "key": "boat-tours", "titlePattern": "{possessive} En İyi Tekne Turları" },
-    { "order": 16, "key": "sunset-spots", "titlePattern": "{name}'da Gün Batımı İzlenecek En Güzel Yerler" },
-    { "order": 17, "key": "family-hotels", "titlePattern": "{name}'da Çocuklu Aileler İçin En İyi Oteller" },
-    { "order": 18, "key": "honeymoon-hotels", "titlePattern": "{possessive} En İyi Balayı Otelleri" },
-    { "order": 19, "key": "affordable-hotels", "titlePattern": "{name}'da Uygun Fiyatlı En İyi Oteller" },
-    { "order": 20, "key": "travel-guide", "titlePattern": "{name} Tatil Rehberi: Gitmeden Önce Bilmeniz Gerekenler" }
+    {
+      "order": 1,
+      "key": "best-hotels",
+      "titlePattern": "{possessive} En İyi 10 Oteli"
+    },
+    {
+      "order": 2,
+      "key": "best-restaurants",
+      "titlePattern": "{possessive} En İyi 10 Restoranı"
+    },
+    {
+      "order": 3,
+      "key": "places-to-visit",
+      "titlePattern": "{name}'da Gezilecek En Güzel 20 Yer"
+    },
+    {
+      "order": 4,
+      "key": "best-beaches",
+      "titlePattern": "{possessive} En Güzel 10 Plajı"
+    },
+    {
+      "order": 5,
+      "key": "best-bays",
+      "titlePattern": "{possessive} En Güzel Koyları"
+    },
+    {
+      "order": 6,
+      "key": "where-to-stay",
+      "titlePattern": "{name}'da Nerede Kalınır?"
+    },
+    {
+      "order": 7,
+      "key": "all-inclusive-hotels",
+      "titlePattern": "{possessive} En İyi Her Şey Dahil Otelleri"
+    },
+    {
+      "order": 8,
+      "key": "five-star-hotels",
+      "titlePattern": "{possessive} En İyi 5 Yıldızlı Otelleri"
+    },
+    {
+      "order": 9,
+      "key": "beachfront-hotels",
+      "titlePattern": "{possessive} En İyi Denize Sıfır Otelleri"
+    },
+    {
+      "order": 10,
+      "key": "boutique-hotels",
+      "titlePattern": "{possessive} En İyi Butik Otelleri"
+    },
+    {
+      "order": 11,
+      "key": "what-to-eat",
+      "titlePattern": "{name}'da Ne Yenir? En İyi Yemekler ve Mekanlar"
+    },
+    {
+      "order": 12,
+      "key": "beach-clubs",
+      "titlePattern": "{possessive} En İyi Beach Club'ları"
+    },
+    {
+      "order": 13,
+      "key": "nightlife",
+      "titlePattern": "{name} Gece Hayatı: En İyi Bar ve Gece Kulüpleri"
+    },
+    {
+      "order": 14,
+      "key": "activities",
+      "titlePattern": "{name}'da Yapılacak En Güzel 20 Aktivite"
+    },
+    {
+      "order": 15,
+      "key": "boat-tours",
+      "titlePattern": "{possessive} En İyi Tekne Turları"
+    },
+    {
+      "order": 16,
+      "key": "sunset-spots",
+      "titlePattern": "{name}'da Gün Batımı İzlenecek En Güzel Yerler"
+    },
+    {
+      "order": 17,
+      "key": "family-hotels",
+      "titlePattern": "{name}'da Çocuklu Aileler İçin En İyi Oteller"
+    },
+    {
+      "order": 18,
+      "key": "honeymoon-hotels",
+      "titlePattern": "{possessive} En İyi Balayı Otelleri"
+    },
+    {
+      "order": 19,
+      "key": "affordable-hotels",
+      "titlePattern": "{name}'da Uygun Fiyatlı En İyi Oteller"
+    },
+    {
+      "order": 20,
+      "key": "travel-guide",
+      "titlePattern": "{name} Tatil Rehberi: Gitmeden Önce Bilmeniz Gerekenler"
+    }
   ],
   "batch1": {
     "publishDate": "2026-08-25",
     "topicKey": "best-hotels",
     "status": "published",
     "pages": [
-      { "order": 1, "name": "Bodrum", "parent": "Muğla", "title": "Bodrum'un En İyi 10 Oteli", "slug": "bodrumun-en-iyi-10-oteli", "status": "published" },
-      { "order": 2, "name": "Alanya", "parent": "Antalya", "title": "Alanya'nın En İyi 10 Oteli", "slug": "alanyanin-en-iyi-10-oteli", "status": "published" },
-      { "order": 3, "name": "Side", "parent": "Manavgat / Antalya", "title": "Side'nin En İyi 10 Oteli", "slug": "sidenin-en-iyi-10-oteli", "status": "published" },
-      { "order": 4, "name": "Belek", "parent": "Serik / Antalya", "title": "Belek'in En İyi 10 Oteli", "slug": "belekin-en-iyi-10-oteli", "status": "published" },
-      { "order": 5, "name": "Kemer", "parent": "Antalya", "title": "Kemer'in En İyi 10 Oteli", "slug": "kemerin-en-iyi-10-oteli", "status": "published" },
-      { "order": 6, "name": "Marmaris", "parent": "Muğla", "title": "Marmaris'in En İyi 10 Oteli", "slug": "marmarisin-en-iyi-10-oteli", "status": "published" },
-      { "order": 7, "name": "Fethiye", "parent": "Muğla", "title": "Fethiye'nin En İyi 10 Oteli", "slug": "fethiyenin-en-iyi-10-oteli", "status": "published" },
-      { "order": 8, "name": "Manavgat", "parent": "Antalya", "title": "Manavgat'ın En İyi 10 Oteli", "slug": "manavgatin-en-iyi-10-oteli", "status": "published" },
-      { "order": 9, "name": "Lara", "parent": "Antalya", "title": "Lara'nın En İyi 10 Oteli", "slug": "laranin-en-iyi-10-oteli", "status": "published" },
-      { "order": 10, "name": "Çeşme", "parent": "İzmir", "title": "Çeşme'nin En İyi 10 Oteli", "slug": "cesmenin-en-iyi-10-oteli", "status": "published" },
-      { "order": 11, "name": "Alaçatı", "parent": "Çeşme / İzmir", "title": "Alaçatı'nın En İyi 10 Oteli", "slug": "alacatinin-en-iyi-10-oteli", "status": "published" },
-      { "order": 12, "name": "Ölüdeniz", "parent": "Fethiye / Muğla", "title": "Ölüdeniz'in En İyi 10 Oteli", "slug": "oludenizin-en-iyi-10-oteli", "status": "published" },
-      { "order": 13, "name": "Fatih", "parent": "İstanbul", "title": "Fatih'in En İyi 10 Oteli", "slug": "fatihin-en-iyi-10-oteli", "status": "published" },
-      { "order": 14, "name": "Taksim", "parent": "Beyoğlu / İstanbul", "title": "Taksim'in En İyi 10 Oteli", "slug": "taksimin-en-iyi-10-oteli", "status": "published" },
-      { "order": 15, "name": "Kuşadası", "parent": "Aydın", "title": "Kuşadası'nın En İyi 10 Oteli", "slug": "kusadasinin-en-iyi-10-oteli", "status": "published" },
-      { "order": 16, "name": "Göreme", "parent": "Nevşehir / Kapadokya", "title": "Göreme'nin En İyi 10 Oteli", "slug": "goremenin-en-iyi-10-oteli", "status": "published" },
-      { "order": 17, "name": "Kalkan", "parent": "Kaş / Antalya", "title": "Kalkan'ın En İyi 10 Oteli", "slug": "kalkanin-en-iyi-10-oteli", "status": "published" },
-      { "order": 18, "name": "Kaş", "parent": "Antalya", "title": "Kaş'ın En İyi 10 Oteli", "slug": "kasin-en-iyi-10-oteli", "status": "published" },
-      { "order": 19, "name": "Didim", "parent": "Aydın", "title": "Didim'in En İyi 10 Oteli", "slug": "didimin-en-iyi-10-oteli", "status": "published" },
-      { "order": 20, "name": "Yalıkavak", "parent": "Bodrum / Muğla", "title": "Yalıkavak'ın En İyi 10 Oteli", "slug": "yalikavakin-en-iyi-10-oteli", "status": "published" }
+      {
+        "order": 1,
+        "name": "Bodrum",
+        "parent": "Muğla",
+        "title": "Bodrum'un En İyi 10 Oteli",
+        "slug": "bodrumun-en-iyi-10-oteli",
+        "status": "published"
+      },
+      {
+        "order": 2,
+        "name": "Alanya",
+        "parent": "Antalya",
+        "title": "Alanya'nın En İyi 10 Oteli",
+        "slug": "alanyanin-en-iyi-10-oteli",
+        "status": "published"
+      },
+      {
+        "order": 3,
+        "name": "Side",
+        "parent": "Manavgat / Antalya",
+        "title": "Side'nin En İyi 10 Oteli",
+        "slug": "sidenin-en-iyi-10-oteli",
+        "status": "published"
+      },
+      {
+        "order": 4,
+        "name": "Belek",
+        "parent": "Serik / Antalya",
+        "title": "Belek'in En İyi 10 Oteli",
+        "slug": "belekin-en-iyi-10-oteli",
+        "status": "published"
+      },
+      {
+        "order": 5,
+        "name": "Kemer",
+        "parent": "Antalya",
+        "title": "Kemer'in En İyi 10 Oteli",
+        "slug": "kemerin-en-iyi-10-oteli",
+        "status": "published"
+      },
+      {
+        "order": 6,
+        "name": "Marmaris",
+        "parent": "Muğla",
+        "title": "Marmaris'in En İyi 10 Oteli",
+        "slug": "marmarisin-en-iyi-10-oteli",
+        "status": "published"
+      },
+      {
+        "order": 7,
+        "name": "Fethiye",
+        "parent": "Muğla",
+        "title": "Fethiye'nin En İyi 10 Oteli",
+        "slug": "fethiyenin-en-iyi-10-oteli",
+        "status": "published"
+      },
+      {
+        "order": 8,
+        "name": "Manavgat",
+        "parent": "Antalya",
+        "title": "Manavgat'ın En İyi 10 Oteli",
+        "slug": "manavgatin-en-iyi-10-oteli",
+        "status": "published"
+      },
+      {
+        "order": 9,
+        "name": "Lara",
+        "parent": "Antalya",
+        "title": "Lara'nın En İyi 10 Oteli",
+        "slug": "laranin-en-iyi-10-oteli",
+        "status": "published"
+      },
+      {
+        "order": 10,
+        "name": "Çeşme",
+        "parent": "İzmir",
+        "title": "Çeşme'nin En İyi 10 Oteli",
+        "slug": "cesmenin-en-iyi-10-oteli",
+        "status": "published"
+      },
+      {
+        "order": 11,
+        "name": "Alaçatı",
+        "parent": "Çeşme / İzmir",
+        "title": "Alaçatı'nın En İyi 10 Oteli",
+        "slug": "alacatinin-en-iyi-10-oteli",
+        "status": "published"
+      },
+      {
+        "order": 12,
+        "name": "Ölüdeniz",
+        "parent": "Fethiye / Muğla",
+        "title": "Ölüdeniz'in En İyi 10 Oteli",
+        "slug": "oludenizin-en-iyi-10-oteli",
+        "status": "published"
+      },
+      {
+        "order": 13,
+        "name": "Fatih",
+        "parent": "İstanbul",
+        "title": "Fatih'in En İyi 10 Oteli",
+        "slug": "fatihin-en-iyi-10-oteli",
+        "status": "published"
+      },
+      {
+        "order": 14,
+        "name": "Taksim",
+        "parent": "Beyoğlu / İstanbul",
+        "title": "Taksim'in En İyi 10 Oteli",
+        "slug": "taksimin-en-iyi-10-oteli",
+        "status": "published"
+      },
+      {
+        "order": 15,
+        "name": "Kuşadası",
+        "parent": "Aydın",
+        "title": "Kuşadası'nın En İyi 10 Oteli",
+        "slug": "kusadasinin-en-iyi-10-oteli",
+        "status": "published"
+      },
+      {
+        "order": 16,
+        "name": "Göreme",
+        "parent": "Nevşehir / Kapadokya",
+        "title": "Göreme'nin En İyi 10 Oteli",
+        "slug": "goremenin-en-iyi-10-oteli",
+        "status": "published"
+      },
+      {
+        "order": 17,
+        "name": "Kalkan",
+        "parent": "Kaş / Antalya",
+        "title": "Kalkan'ın En İyi 10 Oteli",
+        "slug": "kalkanin-en-iyi-10-oteli",
+        "status": "published"
+      },
+      {
+        "order": 18,
+        "name": "Kaş",
+        "parent": "Antalya",
+        "title": "Kaş'ın En İyi 10 Oteli",
+        "slug": "kasin-en-iyi-10-oteli",
+        "status": "published"
+      },
+      {
+        "order": 19,
+        "name": "Didim",
+        "parent": "Aydın",
+        "title": "Didim'in En İyi 10 Oteli",
+        "slug": "didimin-en-iyi-10-oteli",
+        "status": "published"
+      },
+      {
+        "order": 20,
+        "name": "Yalıkavak",
+        "parent": "Bodrum / Muğla",
+        "title": "Yalıkavak'ın En İyi 10 Oteli",
+        "slug": "yalikavakin-en-iyi-10-oteli",
+        "status": "published"
+      }
     ]
   },
   "batch2": {
@@ -58,56 +278,429 @@
     "topicKey": "best-hotels",
     "status": "published",
     "pages": [
-      { "order": 21, "name": "Beyoğlu", "parent": "İstanbul", "title": "Beyoğlu'nun En İyi 10 Oteli", "slug": "beyoglunun-en-iyi-10-oteli", "status": "published" },
-      { "order": 22, "name": "Kapadokya", "parent": "Nevşehir", "title": "Kapadokya'nın En İyi 10 Oteli", "slug": "kapadokyanin-en-iyi-10-oteli", "status": "published" },
-      { "order": 23, "name": "Ürgüp", "parent": "Nevşehir", "title": "Ürgüp'ün En İyi 10 Oteli", "slug": "urgupun-en-iyi-10-oteli", "status": "published" },
-      { "order": 24, "name": "Dalyan", "parent": "Ortaca / Muğla", "title": "Dalyan'ın En İyi 10 Oteli", "slug": "dalyanin-en-iyi-10-oteli", "status": "published" },
-      { "order": 25, "name": "Sarıgerme", "parent": "Ortaca / Muğla", "title": "Sarıgerme'nin En İyi 10 Oteli", "slug": "sarigermenin-en-iyi-10-oteli", "status": "published" },
-      { "order": 26, "name": "Gümbet", "parent": "Bodrum / Muğla", "title": "Gümbet'in En İyi 10 Oteli", "slug": "gumbetin-en-iyi-10-oteli", "status": "published" },
-      { "order": 27, "name": "Bitez", "parent": "Bodrum / Muğla", "title": "Bitez'in En İyi 10 Oteli", "slug": "bitezin-en-iyi-10-oteli", "status": "published" },
-      { "order": 28, "name": "Turgutreis", "parent": "Bodrum / Muğla", "title": "Turgutreis'in En İyi 10 Oteli", "slug": "turgutreisin-en-iyi-10-oteli", "status": "published" },
-      { "order": 29, "name": "Gümüşlük", "parent": "Bodrum / Muğla", "title": "Gümüşlük'ün En İyi 10 Oteli", "slug": "gumuslugun-en-iyi-10-oteli", "status": "published" },
-      { "order": 30, "name": "Torba", "parent": "Bodrum / Muğla", "title": "Torba'nın En İyi 10 Oteli", "slug": "torbanin-en-iyi-10-oteli", "status": "published" },
-      { "order": 31, "name": "Türkbükü", "parent": "Bodrum / Muğla", "title": "Türkbükü'nün En İyi 10 Oteli", "slug": "turkbukunun-en-iyi-10-oteli", "status": "published" },
-      { "order": 32, "name": "Akyarlar", "parent": "Bodrum / Muğla", "title": "Akyarlar'ın En İyi 10 Oteli", "slug": "akyarlarin-en-iyi-10-oteli", "status": "published" },
-      { "order": 33, "name": "Göcek", "parent": "Fethiye / Muğla", "title": "Göcek'in En İyi 10 Oteli", "slug": "gocekin-en-iyi-10-oteli", "status": "published" },
-      { "order": 34, "name": "Hisarönü", "parent": "Fethiye / Muğla", "title": "Hisarönü'nün En İyi 10 Oteli", "slug": "hisaronunun-en-iyi-10-oteli", "status": "published" },
-      { "order": 35, "name": "Ovacık", "parent": "Fethiye / Muğla", "title": "Ovacık'ın En İyi 10 Oteli", "slug": "ovacikin-en-iyi-10-oteli", "status": "published" },
-      { "order": 36, "name": "Kabak Koyu", "parent": "Fethiye / Muğla", "title": "Kabak Koyu'nun En İyi 10 Oteli", "slug": "kabak-koyunun-en-iyi-10-oteli", "status": "published" },
-      { "order": 37, "name": "Adrasan", "parent": "Kumluca / Antalya", "title": "Adrasan'ın En İyi 10 Oteli", "slug": "adrasanin-en-iyi-10-oteli", "status": "published" },
-      { "order": 38, "name": "Olympos", "parent": "Kumluca / Antalya", "title": "Olympos'un En İyi 10 Oteli", "slug": "olymposun-en-iyi-10-oteli", "status": "published" },
-      { "order": 39, "name": "Çıralı", "parent": "Kemer / Antalya", "title": "Çıralı'nın En İyi 10 Oteli", "slug": "ciralinin-en-iyi-10-oteli", "status": "published" },
-      { "order": 40, "name": "Tekirova", "parent": "Kemer / Antalya", "title": "Tekirova'nın En İyi 10 Oteli", "slug": "tekirovanin-en-iyi-10-oteli", "status": "published" }
+      {
+        "order": 21,
+        "name": "Beyoğlu",
+        "parent": "İstanbul",
+        "title": "Beyoğlu'nun En İyi 10 Oteli",
+        "slug": "beyoglunun-en-iyi-10-oteli",
+        "status": "published"
+      },
+      {
+        "order": 22,
+        "name": "Kapadokya",
+        "parent": "Nevşehir",
+        "title": "Kapadokya'nın En İyi 10 Oteli",
+        "slug": "kapadokyanin-en-iyi-10-oteli",
+        "status": "published"
+      },
+      {
+        "order": 23,
+        "name": "Ürgüp",
+        "parent": "Nevşehir",
+        "title": "Ürgüp'ün En İyi 10 Oteli",
+        "slug": "urgupun-en-iyi-10-oteli",
+        "status": "published"
+      },
+      {
+        "order": 24,
+        "name": "Dalyan",
+        "parent": "Ortaca / Muğla",
+        "title": "Dalyan'ın En İyi 10 Oteli",
+        "slug": "dalyanin-en-iyi-10-oteli",
+        "status": "published"
+      },
+      {
+        "order": 25,
+        "name": "Sarıgerme",
+        "parent": "Ortaca / Muğla",
+        "title": "Sarıgerme'nin En İyi 10 Oteli",
+        "slug": "sarigermenin-en-iyi-10-oteli",
+        "status": "published"
+      },
+      {
+        "order": 26,
+        "name": "Gümbet",
+        "parent": "Bodrum / Muğla",
+        "title": "Gümbet'in En İyi 10 Oteli",
+        "slug": "gumbetin-en-iyi-10-oteli",
+        "status": "published"
+      },
+      {
+        "order": 27,
+        "name": "Bitez",
+        "parent": "Bodrum / Muğla",
+        "title": "Bitez'in En İyi 10 Oteli",
+        "slug": "bitezin-en-iyi-10-oteli",
+        "status": "published"
+      },
+      {
+        "order": 28,
+        "name": "Turgutreis",
+        "parent": "Bodrum / Muğla",
+        "title": "Turgutreis'in En İyi 10 Oteli",
+        "slug": "turgutreisin-en-iyi-10-oteli",
+        "status": "published"
+      },
+      {
+        "order": 29,
+        "name": "Gümüşlük",
+        "parent": "Bodrum / Muğla",
+        "title": "Gümüşlük'ün En İyi 10 Oteli",
+        "slug": "gumuslugun-en-iyi-10-oteli",
+        "status": "published"
+      },
+      {
+        "order": 30,
+        "name": "Torba",
+        "parent": "Bodrum / Muğla",
+        "title": "Torba'nın En İyi 10 Oteli",
+        "slug": "torbanin-en-iyi-10-oteli",
+        "status": "published"
+      },
+      {
+        "order": 31,
+        "name": "Türkbükü",
+        "parent": "Bodrum / Muğla",
+        "title": "Türkbükü'nün En İyi 10 Oteli",
+        "slug": "turkbukunun-en-iyi-10-oteli",
+        "status": "published"
+      },
+      {
+        "order": 32,
+        "name": "Akyarlar",
+        "parent": "Bodrum / Muğla",
+        "title": "Akyarlar'ın En İyi 10 Oteli",
+        "slug": "akyarlarin-en-iyi-10-oteli",
+        "status": "published"
+      },
+      {
+        "order": 33,
+        "name": "Göcek",
+        "parent": "Fethiye / Muğla",
+        "title": "Göcek'in En İyi 10 Oteli",
+        "slug": "gocekin-en-iyi-10-oteli",
+        "status": "published"
+      },
+      {
+        "order": 34,
+        "name": "Hisarönü",
+        "parent": "Fethiye / Muğla",
+        "title": "Hisarönü'nün En İyi 10 Oteli",
+        "slug": "hisaronunun-en-iyi-10-oteli",
+        "status": "published"
+      },
+      {
+        "order": 35,
+        "name": "Ovacık",
+        "parent": "Fethiye / Muğla",
+        "title": "Ovacık'ın En İyi 10 Oteli",
+        "slug": "ovacikin-en-iyi-10-oteli",
+        "status": "published"
+      },
+      {
+        "order": 36,
+        "name": "Kabak Koyu",
+        "parent": "Fethiye / Muğla",
+        "title": "Kabak Koyu'nun En İyi 10 Oteli",
+        "slug": "kabak-koyunun-en-iyi-10-oteli",
+        "status": "published"
+      },
+      {
+        "order": 37,
+        "name": "Adrasan",
+        "parent": "Kumluca / Antalya",
+        "title": "Adrasan'ın En İyi 10 Oteli",
+        "slug": "adrasanin-en-iyi-10-oteli",
+        "status": "published"
+      },
+      {
+        "order": 38,
+        "name": "Olympos",
+        "parent": "Kumluca / Antalya",
+        "title": "Olympos'un En İyi 10 Oteli",
+        "slug": "olymposun-en-iyi-10-oteli",
+        "status": "published"
+      },
+      {
+        "order": 39,
+        "name": "Çıralı",
+        "parent": "Kemer / Antalya",
+        "title": "Çıralı'nın En İyi 10 Oteli",
+        "slug": "ciralinin-en-iyi-10-oteli",
+        "status": "published"
+      },
+      {
+        "order": 40,
+        "name": "Tekirova",
+        "parent": "Kemer / Antalya",
+        "title": "Tekirova'nın En İyi 10 Oteli",
+        "slug": "tekirovanin-en-iyi-10-oteli",
+        "status": "published"
+      }
     ]
   },
   "batch3": {
     "publishDate": "2026-08-27",
     "version": "2026.08.27-b3",
     "topicKey": "best-hotels",
-    "status": "pending_validation",
+    "status": "published",
     "pages": [
-      { "order": 41, "name": "Göynük", "parent": "Kemer / Antalya", "title": "Göynük'ün En İyi 10 Oteli", "slug": "goynukun-en-iyi-10-oteli", "status": "pending_validation", "coverImage": "/assets/guides/goynuk.webp", "profile": "Torosların eteğinde, çam ormanları ve sahil otelleriyle sakin bir Kemer alternatifi" },
-      { "order": 42, "name": "Beldibi", "parent": "Kemer / Antalya", "title": "Beldibi'nin En İyi 10 Oteli", "slug": "beldibinin-en-iyi-10-oteli", "status": "pending_validation", "coverImage": "/assets/guides/beldibi.webp", "profile": "dağ ve denizin birbirine yaklaştığı, doğa manzaralı resort bölgesi" },
-      { "order": 43, "name": "Kiriş", "parent": "Kemer / Antalya", "title": "Kiriş'in En İyi 10 Oteli", "slug": "kirisin-en-iyi-10-oteli", "status": "pending_validation", "coverImage": "/assets/guides/kiris.webp", "profile": "korunaklı koyu ve büyük tatil tesisleriyle dinlenme odaklı bir sahil bölgesi" },
-      { "order": 44, "name": "Kundu", "parent": "Aksu / Antalya", "title": "Kundu'nun En İyi 10 Oteli", "slug": "kundunun-en-iyi-10-oteli", "status": "pending_validation", "coverImage": "/assets/guides/kundu.webp", "profile": "havalimanına yakınlığı ve temalı resortlarıyla konfor odaklı Antalya seçeneği" },
-      { "order": 45, "name": "Konyaaltı", "parent": "Antalya", "title": "Konyaaltı'nın En İyi 10 Oteli", "slug": "konyaaltinin-en-iyi-10-oteli", "status": "pending_validation", "coverImage": "/assets/guides/konyaalti.webp", "profile": "uzun sahili, şehir yaşamı ve Beydağları manzarasını bir araya getiren merkez bölgesi" },
-      { "order": 46, "name": "Kaleiçi", "parent": "Muratpaşa / Antalya", "title": "Kaleiçi'nin En İyi 10 Oteli", "slug": "kaleicinin-en-iyi-10-oteli", "status": "pending_validation", "coverImage": "/assets/guides/kaleici.webp", "profile": "tarihi sokakları, limanı ve karakterli butik konaklamalarıyla Antalya'nın eski merkezi" },
-      { "order": 47, "name": "Muratpaşa", "parent": "Antalya", "title": "Muratpaşa'nın En İyi 10 Oteli", "slug": "muratpasanin-en-iyi-10-oteli", "status": "pending_validation", "coverImage": "/assets/guides/muratpasa.webp", "profile": "şehir otelleri, falez kıyıları ve merkezi ulaşım seçenekleriyle hareketli bir konaklama bölgesi" },
-      { "order": 48, "name": "Avsallar", "parent": "Alanya / Antalya", "title": "Avsallar'ın En İyi 10 Oteli", "slug": "avsallarin-en-iyi-10-oteli", "status": "pending_validation", "coverImage": "/assets/guides/avsallar.webp", "profile": "ince kumlu sahilleri ve aile dostu tesisleriyle Alanya'nın batısında popüler bir merkez" },
-      { "order": 49, "name": "Mahmutlar", "parent": "Alanya / Antalya", "title": "Mahmutlar'ın En İyi 10 Oteli", "slug": "mahmutlarin-en-iyi-10-oteli", "status": "pending_validation", "coverImage": "/assets/guides/mahmutlar.webp", "profile": "sahil boyunca uzanan yerleşimi ve günlük yaşama yakın apart otelleriyle canlı bir bölge" },
-      { "order": 50, "name": "Okurcalar", "parent": "Alanya / Antalya", "title": "Okurcalar'ın En İyi 10 Oteli", "slug": "okurcalarin-en-iyi-10-oteli", "status": "pending_validation", "coverImage": "/assets/guides/okurcalar.webp", "profile": "geniş resort alanları ve aile odaklı her şey dahil seçenekleriyle öne çıkan tatil bölgesi" },
-      { "order": 51, "name": "İncekum", "parent": "Alanya / Antalya", "title": "İncekum'un En İyi 10 Oteli", "slug": "incekumun-en-iyi-10-oteli", "status": "pending_validation", "coverImage": "/assets/guides/incekum.webp", "profile": "sığ denizi ve yumuşak kumlu plajıyla çocuklu ailelerin sık tercih ettiği sahil" },
-      { "order": 52, "name": "Kestel", "parent": "Alanya / Antalya", "title": "Kestel'in En İyi 10 Oteli", "slug": "kestelin-en-iyi-10-oteli", "status": "pending_validation", "coverImage": "/assets/guides/kestel.webp", "profile": "Alanya merkeze yakın, daha sakin atmosferli sahil ve apart konaklama bölgesi" },
-      { "order": 53, "name": "Oba", "parent": "Alanya / Antalya", "title": "Oba'nın En İyi 10 Oteli", "slug": "obanin-en-iyi-10-oteli", "status": "pending_validation", "coverImage": "/assets/guides/oba.webp", "profile": "sahil, restoranlar ve şehir olanaklarına yürüyerek erişilebilen düzenli Alanya mahallesi" },
-      { "order": 54, "name": "Kızılot", "parent": "Manavgat / Antalya", "title": "Kızılot'un En İyi 10 Oteli", "slug": "kizilotun-en-iyi-10-oteli", "status": "pending_validation", "coverImage": "/assets/guides/kizilot.webp", "profile": "uzun kıyısı ve şehir kalabalığından uzak büyük tesisleriyle dinlenme odaklı bölge" },
-      { "order": 55, "name": "Evrenseki", "parent": "Manavgat / Antalya", "title": "Evrenseki'nin En İyi 10 Oteli", "slug": "evrensekinin-en-iyi-10-oteli", "status": "pending_validation", "coverImage": "/assets/guides/evrenseki.webp", "profile": "düzenli plajları ve Side çevresindeki güçlü her şey dahil otel seçenekleriyle bilinen merkez" },
-      { "order": 56, "name": "Kumköy", "parent": "Manavgat / Antalya", "title": "Kumköy'ün En İyi 10 Oteli", "slug": "kumkoyun-en-iyi-10-oteli", "status": "pending_validation", "coverImage": "/assets/guides/kumkoy.webp", "profile": "Side'ye yakınlığı, alışveriş olanakları ve geniş kumsalıyla hareketli tatil bölgesi" },
-      { "order": 57, "name": "Çolaklı", "parent": "Manavgat / Antalya", "title": "Çolaklı'nın En İyi 10 Oteli", "slug": "colaklinin-en-iyi-10-oteli", "status": "pending_validation", "coverImage": "/assets/guides/colakli.webp", "profile": "geniş plajı ve çocuklu ailelere yönelik resortlarıyla Side'nin batısında öne çıkan bölge" },
-      { "order": 58, "name": "Sorgun", "parent": "Manavgat / Antalya", "title": "Sorgun'un En İyi 10 Oteli", "slug": "sorgunun-en-iyi-10-oteli", "status": "pending_validation", "coverImage": "/assets/guides/sorgun.webp", "profile": "çam ormanı, sahil ve Side antik kentine yakınlığı birleştiren doğal resort bölgesi" },
-      { "order": 59, "name": "Ilıca", "parent": "Çeşme / İzmir", "title": "Ilıca'nın En İyi 10 Oteli", "slug": "ilicanin-en-iyi-10-oteli", "status": "pending_validation", "coverImage": "/assets/guides/ilica.webp", "profile": "termal kaynakları, sığ denizi ve uzun kumsalıyla Çeşme'nin klasik tatil merkezi" },
-      { "order": 60, "name": "Dalyan", "parent": "Çeşme / İzmir", "title": "Çeşme Dalyanı'nın En İyi 10 Oteli", "slug": "cesme-dalyaninin-en-iyi-10-oteli", "status": "pending_validation", "coverImage": "/assets/guides/cesme-dalyani.webp", "profile": "marinası, balık restoranları ve sakin koylarıyla Çeşme'nin kuzeyindeki sahil yerleşimi" },
-      { "order": 61, "name": "Urla", "parent": "İzmir", "title": "Urla'nın En İyi 10 Oteli", "slug": "urlanin-en-iyi-10-oteli", "status": "pending_validation", "coverImage": "/assets/guides/urla.webp", "profile": "bağ rotaları, sakin koyları ve güçlü gastronomi sahnesiyle İzmir'in özgün Ege destinasyonu" }
-    ]
+      {
+        "order": 41,
+        "name": "Göynük",
+        "parent": "Kemer / Antalya",
+        "title": "Göynük'ün En İyi 10 Oteli",
+        "slug": "goynukun-en-iyi-10-oteli",
+        "status": "published",
+        "coverImage": "/assets/guides/goynuk.webp",
+        "profile": "Torosların eteğinde, çam ormanları ve sahil otelleriyle sakin bir Kemer alternatifi",
+        "validatedAt": "2026-08-27T19:00:00+03:00",
+        "hotelCount": 10
+      },
+      {
+        "order": 42,
+        "name": "Beldibi",
+        "parent": "Kemer / Antalya",
+        "title": "Beldibi'nin En İyi 10 Oteli",
+        "slug": "beldibinin-en-iyi-10-oteli",
+        "status": "skipped_quality",
+        "coverImage": "/assets/guides/beldibi.webp",
+        "profile": "dağ ve denizin birbirine yaklaştığı, doğa manzaralı resort bölgesi",
+        "skipReason": "SearchAPI quality gate returned fewer than 10 complete hotel records"
+      },
+      {
+        "order": 43,
+        "name": "Kiriş",
+        "parent": "Kemer / Antalya",
+        "title": "Kiriş'in En İyi 10 Oteli",
+        "slug": "kirisin-en-iyi-10-oteli",
+        "status": "published",
+        "coverImage": "/assets/guides/kiris.webp",
+        "profile": "korunaklı koyu ve büyük tatil tesisleriyle dinlenme odaklı bir sahil bölgesi",
+        "validatedAt": "2026-08-27T19:00:00+03:00",
+        "hotelCount": 10
+      },
+      {
+        "order": 44,
+        "name": "Kundu",
+        "parent": "Aksu / Antalya",
+        "title": "Kundu'nun En İyi 10 Oteli",
+        "slug": "kundunun-en-iyi-10-oteli",
+        "status": "published",
+        "coverImage": "/assets/guides/kundu.webp",
+        "profile": "havalimanına yakınlığı ve temalı resortlarıyla konfor odaklı Antalya seçeneği",
+        "validatedAt": "2026-08-27T19:00:00+03:00",
+        "hotelCount": 10
+      },
+      {
+        "order": 45,
+        "name": "Konyaaltı",
+        "parent": "Antalya",
+        "title": "Konyaaltı'nın En İyi 10 Oteli",
+        "slug": "konyaaltinin-en-iyi-10-oteli",
+        "status": "published",
+        "coverImage": "/assets/guides/konyaalti.webp",
+        "profile": "uzun sahili, şehir yaşamı ve Beydağları manzarasını bir araya getiren merkez bölgesi",
+        "validatedAt": "2026-08-27T19:00:00+03:00",
+        "hotelCount": 10
+      },
+      {
+        "order": 46,
+        "name": "Kaleiçi",
+        "parent": "Muratpaşa / Antalya",
+        "title": "Kaleiçi'nin En İyi 10 Oteli",
+        "slug": "kaleicinin-en-iyi-10-oteli",
+        "status": "published",
+        "coverImage": "/assets/guides/kaleici.webp",
+        "profile": "tarihi sokakları, limanı ve karakterli butik konaklamalarıyla Antalya'nın eski merkezi",
+        "validatedAt": "2026-08-27T19:00:00+03:00",
+        "hotelCount": 10
+      },
+      {
+        "order": 47,
+        "name": "Muratpaşa",
+        "parent": "Antalya",
+        "title": "Muratpaşa'nın En İyi 10 Oteli",
+        "slug": "muratpasanin-en-iyi-10-oteli",
+        "status": "published",
+        "coverImage": "/assets/guides/muratpasa.webp",
+        "profile": "şehir otelleri, falez kıyıları ve merkezi ulaşım seçenekleriyle hareketli bir konaklama bölgesi",
+        "validatedAt": "2026-08-27T19:00:00+03:00",
+        "hotelCount": 10
+      },
+      {
+        "order": 48,
+        "name": "Avsallar",
+        "parent": "Alanya / Antalya",
+        "title": "Avsallar'ın En İyi 10 Oteli",
+        "slug": "avsallarin-en-iyi-10-oteli",
+        "status": "published",
+        "coverImage": "/assets/guides/avsallar.webp",
+        "profile": "ince kumlu sahilleri ve aile dostu tesisleriyle Alanya'nın batısında popüler bir merkez",
+        "validatedAt": "2026-08-27T19:00:00+03:00",
+        "hotelCount": 10
+      },
+      {
+        "order": 49,
+        "name": "Mahmutlar",
+        "parent": "Alanya / Antalya",
+        "title": "Mahmutlar'ın En İyi 10 Oteli",
+        "slug": "mahmutlarin-en-iyi-10-oteli",
+        "status": "published",
+        "coverImage": "/assets/guides/mahmutlar.webp",
+        "profile": "sahil boyunca uzanan yerleşimi ve günlük yaşama yakın apart otelleriyle canlı bir bölge",
+        "validatedAt": "2026-08-27T19:00:00+03:00",
+        "hotelCount": 10
+      },
+      {
+        "order": 50,
+        "name": "Okurcalar",
+        "parent": "Alanya / Antalya",
+        "title": "Okurcalar'ın En İyi 10 Oteli",
+        "slug": "okurcalarin-en-iyi-10-oteli",
+        "status": "published",
+        "coverImage": "/assets/guides/okurcalar.webp",
+        "profile": "geniş resort alanları ve aile odaklı her şey dahil seçenekleriyle öne çıkan tatil bölgesi",
+        "validatedAt": "2026-08-27T19:00:00+03:00",
+        "hotelCount": 10
+      },
+      {
+        "order": 51,
+        "name": "İncekum",
+        "parent": "Alanya / Antalya",
+        "title": "İncekum'un En İyi 10 Oteli",
+        "slug": "incekumun-en-iyi-10-oteli",
+        "status": "published",
+        "coverImage": "/assets/guides/incekum.webp",
+        "profile": "sığ denizi ve yumuşak kumlu plajıyla çocuklu ailelerin sık tercih ettiği sahil",
+        "validatedAt": "2026-08-27T19:00:00+03:00",
+        "hotelCount": 10
+      },
+      {
+        "order": 52,
+        "name": "Kestel",
+        "parent": "Alanya / Antalya",
+        "title": "Kestel'in En İyi 10 Oteli",
+        "slug": "kestelin-en-iyi-10-oteli",
+        "status": "published",
+        "coverImage": "/assets/guides/kestel.webp",
+        "profile": "Alanya merkeze yakın, daha sakin atmosferli sahil ve apart konaklama bölgesi",
+        "validatedAt": "2026-08-27T19:00:00+03:00",
+        "hotelCount": 10
+      },
+      {
+        "order": 53,
+        "name": "Oba",
+        "parent": "Alanya / Antalya",
+        "title": "Oba'nın En İyi 10 Oteli",
+        "slug": "obanin-en-iyi-10-oteli",
+        "status": "published",
+        "coverImage": "/assets/guides/oba.webp",
+        "profile": "sahil, restoranlar ve şehir olanaklarına yürüyerek erişilebilen düzenli Alanya mahallesi",
+        "validatedAt": "2026-08-27T19:00:00+03:00",
+        "hotelCount": 10
+      },
+      {
+        "order": 54,
+        "name": "Kızılot",
+        "parent": "Manavgat / Antalya",
+        "title": "Kızılot'un En İyi 10 Oteli",
+        "slug": "kizilotun-en-iyi-10-oteli",
+        "status": "published",
+        "coverImage": "/assets/guides/kizilot.webp",
+        "profile": "uzun kıyısı ve şehir kalabalığından uzak büyük tesisleriyle dinlenme odaklı bölge",
+        "validatedAt": "2026-08-27T19:00:00+03:00",
+        "hotelCount": 10
+      },
+      {
+        "order": 55,
+        "name": "Evrenseki",
+        "parent": "Manavgat / Antalya",
+        "title": "Evrenseki'nin En İyi 10 Oteli",
+        "slug": "evrensekinin-en-iyi-10-oteli",
+        "status": "published",
+        "coverImage": "/assets/guides/evrenseki.webp",
+        "profile": "düzenli plajları ve Side çevresindeki güçlü her şey dahil otel seçenekleriyle bilinen merkez",
+        "validatedAt": "2026-08-27T19:00:00+03:00",
+        "hotelCount": 10
+      },
+      {
+        "order": 56,
+        "name": "Kumköy",
+        "parent": "Manavgat / Antalya",
+        "title": "Kumköy'ün En İyi 10 Oteli",
+        "slug": "kumkoyun-en-iyi-10-oteli",
+        "status": "published",
+        "coverImage": "/assets/guides/kumkoy.webp",
+        "profile": "Side'ye yakınlığı, alışveriş olanakları ve geniş kumsalıyla hareketli tatil bölgesi",
+        "validatedAt": "2026-08-27T19:00:00+03:00",
+        "hotelCount": 10
+      },
+      {
+        "order": 57,
+        "name": "Çolaklı",
+        "parent": "Manavgat / Antalya",
+        "title": "Çolaklı'nın En İyi 10 Oteli",
+        "slug": "colaklinin-en-iyi-10-oteli",
+        "status": "published",
+        "coverImage": "/assets/guides/colakli.webp",
+        "profile": "geniş plajı ve çocuklu ailelere yönelik resortlarıyla Side'nin batısında öne çıkan bölge",
+        "validatedAt": "2026-08-27T19:00:00+03:00",
+        "hotelCount": 10
+      },
+      {
+        "order": 58,
+        "name": "Sorgun",
+        "parent": "Manavgat / Antalya",
+        "title": "Sorgun'un En İyi 10 Oteli",
+        "slug": "sorgunun-en-iyi-10-oteli",
+        "status": "published",
+        "coverImage": "/assets/guides/sorgun.webp",
+        "profile": "çam ormanı, sahil ve Side antik kentine yakınlığı birleştiren doğal resort bölgesi",
+        "validatedAt": "2026-08-27T19:00:00+03:00",
+        "hotelCount": 10
+      },
+      {
+        "order": 59,
+        "name": "Ilıca",
+        "parent": "Çeşme / İzmir",
+        "title": "Ilıca'nın En İyi 10 Oteli",
+        "slug": "ilicanin-en-iyi-10-oteli",
+        "status": "published",
+        "coverImage": "/assets/guides/ilica.webp",
+        "profile": "termal kaynakları, sığ denizi ve uzun kumsalıyla Çeşme'nin klasik tatil merkezi",
+        "validatedAt": "2026-08-27T19:00:00+03:00",
+        "hotelCount": 10
+      },
+      {
+        "order": 60,
+        "name": "Dalyan",
+        "parent": "Çeşme / İzmir",
+        "title": "Çeşme Dalyanı'nın En İyi 10 Oteli",
+        "slug": "cesme-dalyaninin-en-iyi-10-oteli",
+        "status": "published",
+        "coverImage": "/assets/guides/cesme-dalyani.webp",
+        "profile": "marinası, balık restoranları ve sakin koylarıyla Çeşme'nin kuzeyindeki sahil yerleşimi",
+        "validatedAt": "2026-08-27T19:00:00+03:00",
+        "hotelCount": 10
+      },
+      {
+        "order": 61,
+        "name": "Urla",
+        "parent": "İzmir",
+        "title": "Urla'nın En İyi 10 Oteli",
+        "slug": "urlanin-en-iyi-10-oteli",
+        "status": "published",
+        "coverImage": "/assets/guides/urla.webp",
+        "profile": "bağ rotaları, sakin koyları ve güçlü gastronomi sahnesiyle İzmir'in özgün Ege destinasyonu",
+        "validatedAt": "2026-08-27T19:00:00+03:00",
+        "hotelCount": 10
+      }
+    ],
+    "publishedAt": "2026-08-27T19:05:00+03:00",
+    "publishedCount": 20,
+    "skippedCount": 1,
+    "validation": "SearchAPI live: exactly 10 hotels with images required"
   }
 }
-
