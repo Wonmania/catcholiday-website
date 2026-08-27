@@ -30,6 +30,7 @@ const destinations = new Map([
   ['evrensekinin-en-iyi-10-oteli', 'Evrenseki, Manavgat, Antalya'], ['kumkoyun-en-iyi-10-oteli', 'Kumköy, Manavgat, Antalya'],
   ['colaklinin-en-iyi-10-oteli', 'Çolaklı, Manavgat, Antalya'], ['sorgunun-en-iyi-10-oteli', 'Sorgun, Manavgat, Antalya'],
   ['ilicanin-en-iyi-10-oteli', 'Ilıca, Çeşme, İzmir'], ['cesme-dalyaninin-en-iyi-10-oteli', 'Dalyan, Çeşme, İzmir'],
+  ['urlanin-en-iyi-10-oteli', 'Urla, İzmir'],
 ]);
 const safeUrl = (value) => { try { const url = new URL(value); return ['http:', 'https:'].includes(url.protocol) ? url.href : null; } catch { return null; } };
 const imageUrl = (item) => {
