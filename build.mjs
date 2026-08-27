@@ -17,7 +17,7 @@ const publishedGuides = Object.entries(manifest)
   .filter((page) => page.status === 'published');
 const guides = [
   { title: "Bodrum'un En İyi 10 Restoranı", slug: 'bodrumun-en-iyi-10-restorani', name: 'Bodrum', parent: 'Muğla', image: '/assets/bodrum-guide-hero-v1.jpg' },
-  ...publishedGuides.map((page, index) => ({ ...page, image: ['/assets/bodrum.png', '/assets/antalya-hero.png', '/assets/kapadokya.png', '/assets/bodrum-guide-hero-v1.jpg'][index % 4] }))
+  ...publishedGuides.map((page, index) => ({ ...page, image: page.coverImage || ['/assets/bodrum.png', '/assets/antalya-hero.png', '/assets/kapadokya.png', '/assets/bodrum-guide-hero-v1.jpg'][index % 4] }))
 ];
 const guideCard = (guide, index) => `<a class="travel-guide-card" href="/${guide.slug}" aria-label="${guide.title}"><img src="${guide.image}" alt="${guide.name} tatil rehberi" loading="lazy" decoding="async" width="480" height="300"><span class="travel-guide-shade"></span><span class="travel-guide-number">${String(index + 1).padStart(2, '0')}</span><span class="travel-guide-copy"><small>${guide.parent || 'Tatil Rehberi'}</small><strong>${guide.title}</strong><em>Rehberi aç <b>→</b></em></span></a>`;
 const visibleGuides = guides.slice(0, 8).map(guideCard).join('');

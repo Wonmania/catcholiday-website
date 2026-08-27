@@ -20,6 +20,16 @@ const destinations = new Map([
   ['ovacikin-en-iyi-10-oteli', 'Ovacık, Fethiye, Muğla'], ['kabak-koyunun-en-iyi-10-oteli', 'Kabak Koyu, Fethiye, Muğla'],
   ['adrasanin-en-iyi-10-oteli', 'Adrasan, Kumluca, Antalya'], ['olymposun-en-iyi-10-oteli', 'Olympos, Kumluca, Antalya'],
   ['ciralinin-en-iyi-10-oteli', 'Çıralı, Kemer, Antalya'], ['tekirovanin-en-iyi-10-oteli', 'Tekirova, Kemer, Antalya'],
+  ['goynukun-en-iyi-10-oteli', 'Göynük, Kemer, Antalya'], ['beldibinin-en-iyi-10-oteli', 'Beldibi, Kemer, Antalya'],
+  ['kirisin-en-iyi-10-oteli', 'Kiriş, Kemer, Antalya'], ['kundunun-en-iyi-10-oteli', 'Kundu, Aksu, Antalya'],
+  ['konyaaltinin-en-iyi-10-oteli', 'Konyaaltı, Antalya'], ['kaleicinin-en-iyi-10-oteli', 'Kaleiçi, Muratpaşa, Antalya'],
+  ['muratpasanin-en-iyi-10-oteli', 'Muratpaşa, Antalya'], ['avsallarin-en-iyi-10-oteli', 'Avsallar, Alanya, Antalya'],
+  ['mahmutlarin-en-iyi-10-oteli', 'Mahmutlar, Alanya, Antalya'], ['okurcalarin-en-iyi-10-oteli', 'Okurcalar, Alanya, Antalya'],
+  ['incekumun-en-iyi-10-oteli', 'İncekum, Alanya, Antalya'], ['kestelin-en-iyi-10-oteli', 'Kestel, Alanya, Antalya'],
+  ['obanin-en-iyi-10-oteli', 'Oba, Alanya, Antalya'], ['kizilotun-en-iyi-10-oteli', 'Kızılot, Manavgat, Antalya'],
+  ['evrensekinin-en-iyi-10-oteli', 'Evrenseki, Manavgat, Antalya'], ['kumkoyun-en-iyi-10-oteli', 'Kumköy, Manavgat, Antalya'],
+  ['colaklinin-en-iyi-10-oteli', 'Çolaklı, Manavgat, Antalya'], ['sorgunun-en-iyi-10-oteli', 'Sorgun, Manavgat, Antalya'],
+  ['ilicanin-en-iyi-10-oteli', 'Ilıca, Çeşme, İzmir'], ['cesme-dalyaninin-en-iyi-10-oteli', 'Dalyan, Çeşme, İzmir'],
 ]);
 const safeUrl = (value) => { try { const url = new URL(value); return ['http:', 'https:'].includes(url.protocol) ? url.href : null; } catch { return null; } };
 const imageUrl = (item) => {
@@ -45,7 +55,9 @@ export default async function handler(request, response) {
       .filter((item) => Number(item.rating) >= 4 && Number(item.reviews) >= 30)
       .sort((a, b) => score(b) - score(a)).slice(0, 10)
       .map((item, index) => ({ rank: index + 1, name: item.name || 'Otel', rating: Number(item.rating || 0), reviews: Number(item.reviews || 0), description: item.description || '', hotelClass: Number(item.hotel_class || 0), amenities: Array.isArray(item.amenities) ? item.amenities.slice(0, 4) : [], price: item.price_per_night?.price || item.total_price?.price || null, image: imageUrl(Array.isArray(item.images) ? item.images[0] : item.thumbnail), link: safeUrl(item.link), checkIn: params.get('check_in_date'), checkOut: params.get('check_out_date') }));
-    if (!hotels.length) throw new Error('No hotels');
+    if (hotels.length < 10 || hotels.some((hotel) => !hotel.image)) {
+      throw new Error(`Quality gate failed: ${hotels.length}/10 hotels`);
+    }
     response.setHeader('Cache-Control', 'public, s-maxage=21600, stale-while-revalidate=86400');
     return response.status(200).json({ destination, hotels });
   } catch (error) {
