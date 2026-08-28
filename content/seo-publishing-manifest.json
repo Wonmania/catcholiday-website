@@ -707,7 +707,7 @@
     "publishDate": "2026-08-28",
     "version": "2026.08.28-b4",
     "topicKey": "best-hotels",
-    "status": "pending_validation",
+    "status": "published",
     "pages": [
       {
         "order": 62,
@@ -715,8 +715,11 @@
         "parent": "Seferihisar / İzmir",
         "title": "Sığacık'ın En İyi 10 Oteli",
         "slug": "sigacikin-en-iyi-10-oteli",
-        "status": "pending_validation",
-        "profile": "kale içi, marina ve sakin Ege atmosferiyle öne çıkan sahil kasabası"
+        "status": "published",
+        "profile": "kale içi, marina ve sakin Ege atmosferiyle öne çıkan sahil kasabası",
+        "coverImage": "/assets/guides/sigacik.webp",
+        "validatedAt": "2026-08-28T09:08:00+03:00",
+        "hotelCount": 10
       },
       {
         "order": 63,
@@ -724,8 +727,11 @@
         "parent": "İzmir",
         "title": "Seferihisar'ın En İyi 10 Oteli",
         "slug": "seferihisarin-en-iyi-10-oteli",
-        "status": "pending_validation",
-        "profile": "yavaş şehir yaşamı, mandalina bahçeleri ve kıyı rotalarıyla dingin tatil bölgesi"
+        "status": "published",
+        "profile": "yavaş şehir yaşamı, mandalina bahçeleri ve kıyı rotalarıyla dingin tatil bölgesi",
+        "coverImage": "/assets/guides/seferihisar.webp",
+        "validatedAt": "2026-08-28T09:08:00+03:00",
+        "hotelCount": 10
       },
       {
         "order": 64,
@@ -733,8 +739,11 @@
         "parent": "İzmir",
         "title": "Foça'nın En İyi 10 Oteli",
         "slug": "focanin-en-iyi-10-oteli",
-        "status": "pending_validation",
-        "profile": "taş evleri, balıkçı limanı ve koylarıyla karakterli Kuzey Ege destinasyonu"
+        "status": "published",
+        "profile": "taş evleri, balıkçı limanı ve koylarıyla karakterli Kuzey Ege destinasyonu",
+        "coverImage": "/assets/guides/foca.webp",
+        "validatedAt": "2026-08-28T09:08:00+03:00",
+        "hotelCount": 10
       },
       {
         "order": 65,
@@ -742,8 +751,11 @@
         "parent": "Menderes / İzmir",
         "title": "Özdere'nin En İyi 10 Oteli",
         "slug": "ozderenin-en-iyi-10-oteli",
-        "status": "pending_validation",
-        "profile": "uzun sahili ve aile dostu tesisleriyle İzmir güneyinde sakin tatil bölgesi"
+        "status": "published",
+        "profile": "uzun sahili ve aile dostu tesisleriyle İzmir güneyinde sakin tatil bölgesi",
+        "coverImage": "/assets/guides/ozdere.webp",
+        "validatedAt": "2026-08-28T09:08:00+03:00",
+        "hotelCount": 10
       },
       {
         "order": 66,
@@ -751,8 +763,11 @@
         "parent": "Menderes / İzmir",
         "title": "Gümüldür'ün En İyi 10 Oteli",
         "slug": "gumuldurun-en-iyi-10-oteli",
-        "status": "pending_validation",
-        "profile": "mandalina bahçeleri, aquaparkları ve kıyı otelleriyle aile odaklı merkez"
+        "status": "published",
+        "profile": "mandalina bahçeleri, aquaparkları ve kıyı otelleriyle aile odaklı merkez",
+        "coverImage": "/assets/guides/gumuldur.webp",
+        "validatedAt": "2026-08-28T09:08:00+03:00",
+        "hotelCount": 10
       },
       {
         "order": 67,
@@ -760,8 +775,11 @@
         "parent": "İzmir",
         "title": "Selçuk'un En İyi 10 Oteli",
         "slug": "selcukun-en-iyi-10-oteli",
-        "status": "pending_validation",
-        "profile": "Efes, Şirince ve tarihî mirasa yakınlığıyla kültür odaklı konaklama merkezi"
+        "status": "published",
+        "profile": "Efes, Şirince ve tarihî mirasa yakınlığıyla kültür odaklı konaklama merkezi",
+        "coverImage": "/assets/guides/selcuk.webp",
+        "validatedAt": "2026-08-28T09:08:00+03:00",
+        "hotelCount": 10
       },
       {
         "order": 68,
@@ -769,8 +787,11 @@
         "parent": "Selçuk / İzmir",
         "title": "Pamucak'ın En İyi 10 Oteli",
         "slug": "pamucakin-en-iyi-10-oteli",
-        "status": "pending_validation",
-        "profile": "geniş kumsalı ve Efes çevresindeki resortlarıyla kıyı alternatifi"
+        "status": "published",
+        "profile": "geniş kumsalı ve Efes çevresindeki resortlarıyla kıyı alternatifi",
+        "coverImage": "/assets/guides/pamucak.webp",
+        "validatedAt": "2026-08-28T09:08:00+03:00",
+        "hotelCount": 10
       },
       {
         "order": 69,
@@ -778,8 +799,11 @@
         "parent": "Balıkesir",
         "title": "Ayvalık'ın En İyi 10 Oteli",
         "slug": "ayvalikin-en-iyi-10-oteli",
-        "status": "pending_validation",
-        "profile": "taş sokakları, adaları ve güçlü mutfağıyla özgün Kuzey Ege merkezi"
+        "status": "published",
+        "profile": "taş sokakları, adaları ve güçlü mutfağıyla özgün Kuzey Ege merkezi",
+        "coverImage": "/assets/guides/ayvalik.webp",
+        "validatedAt": "2026-08-28T09:08:00+03:00",
+        "hotelCount": 10
       },
       {
         "order": 70,
@@ -787,8 +811,11 @@
         "parent": "Ayvalık / Balıkesir",
         "title": "Cunda Adası'nın En İyi 10 Oteli",
         "slug": "cunda-adasinin-en-iyi-10-oteli",
-        "status": "pending_validation",
-        "profile": "taş evleri, sahil restoranları ve ada atmosferiyle romantik Ege rotası"
+        "status": "published",
+        "profile": "taş evleri, sahil restoranları ve ada atmosferiyle romantik Ege rotası",
+        "coverImage": "/assets/guides/cunda.webp",
+        "validatedAt": "2026-08-28T09:08:00+03:00",
+        "hotelCount": 10
       },
       {
         "order": 71,
@@ -796,8 +823,11 @@
         "parent": "Edremit / Balıkesir",
         "title": "Altınoluk'un En İyi 10 Oteli",
         "slug": "altinolukun-en-iyi-10-oteli",
-        "status": "pending_validation",
-        "profile": "Kazdağları havası ve berrak körfez kıyısıyla doğa odaklı tatil bölgesi"
+        "status": "published",
+        "profile": "Kazdağları havası ve berrak körfez kıyısıyla doğa odaklı tatil bölgesi",
+        "coverImage": "/assets/guides/altinoluk.webp",
+        "validatedAt": "2026-08-28T09:08:00+03:00",
+        "hotelCount": 10
       },
       {
         "order": 72,
@@ -805,8 +835,11 @@
         "parent": "Edremit / Balıkesir",
         "title": "Akçay'ın En İyi 10 Oteli",
         "slug": "akcayin-en-iyi-10-oteli",
-        "status": "pending_validation",
-        "profile": "sahil yürüyüş yolu ve Kazdağları çevresine erişimiyle canlı körfez merkezi"
+        "status": "published",
+        "profile": "sahil yürüyüş yolu ve Kazdağları çevresine erişimiyle canlı körfez merkezi",
+        "coverImage": "/assets/guides/akcay.webp",
+        "validatedAt": "2026-08-28T09:08:00+03:00",
+        "hotelCount": 10
       },
       {
         "order": 73,
@@ -814,8 +847,11 @@
         "parent": "Edremit / Balıkesir",
         "title": "Güre'nin En İyi 10 Oteli",
         "slug": "gurenin-en-iyi-10-oteli",
-        "status": "pending_validation",
-        "profile": "termal kaynakları ve Kazdağları eteklerindeki doğasıyla dinlenme bölgesi"
+        "status": "published",
+        "profile": "termal kaynakları ve Kazdağları eteklerindeki doğasıyla dinlenme bölgesi",
+        "coverImage": "/assets/guides/gure.webp",
+        "validatedAt": "2026-08-28T09:08:00+03:00",
+        "hotelCount": 10
       },
       {
         "order": 74,
@@ -823,8 +859,11 @@
         "parent": "Çanakkale",
         "title": "Bozcaada'nın En İyi 10 Oteli",
         "slug": "bozcaadanin-en-iyi-10-oteli",
-        "status": "pending_validation",
-        "profile": "bağları, taş sokakları ve rüzgârlı koylarıyla özgün ada destinasyonu"
+        "status": "published",
+        "profile": "bağları, taş sokakları ve rüzgârlı koylarıyla özgün ada destinasyonu",
+        "coverImage": "/assets/guides/bozcaada.webp",
+        "validatedAt": "2026-08-28T09:08:00+03:00",
+        "hotelCount": 10
       },
       {
         "order": 75,
@@ -832,8 +871,11 @@
         "parent": "Çanakkale",
         "title": "Gökçeada'nın En İyi 10 Oteli",
         "slug": "gokceadanin-en-iyi-10-oteli",
-        "status": "pending_validation",
-        "profile": "köyleri, geniş koyları ve doğal yaşamıyla keşif odaklı ada rotası"
+        "status": "published",
+        "profile": "köyleri, geniş koyları ve doğal yaşamıyla keşif odaklı ada rotası",
+        "coverImage": "/assets/guides/gokceada.webp",
+        "validatedAt": "2026-08-28T09:08:00+03:00",
+        "hotelCount": 10
       },
       {
         "order": 76,
@@ -841,8 +883,11 @@
         "parent": "Ula / Muğla",
         "title": "Akyaka'nın En İyi 10 Oteli",
         "slug": "akyakanin-en-iyi-10-oteli",
-        "status": "pending_validation",
-        "profile": "Azmak Nehri, çam ormanları ve kite sahiliyle doğa sporları merkezi"
+        "status": "published",
+        "profile": "Azmak Nehri, çam ormanları ve kite sahiliyle doğa sporları merkezi",
+        "coverImage": "/assets/guides/akyaka.webp",
+        "validatedAt": "2026-08-28T09:08:00+03:00",
+        "hotelCount": 10
       },
       {
         "order": 77,
@@ -850,8 +895,11 @@
         "parent": "Muğla",
         "title": "Datça'nın En İyi 10 Oteli",
         "slug": "datcanin-en-iyi-10-oteli",
-        "status": "pending_validation",
-        "profile": "iki deniz arasındaki koyları ve sakin yarımada yaşamıyla dingin Ege rotası"
+        "status": "published",
+        "profile": "iki deniz arasındaki koyları ve sakin yarımada yaşamıyla dingin Ege rotası",
+        "coverImage": "/assets/guides/datca.webp",
+        "validatedAt": "2026-08-28T09:08:00+03:00",
+        "hotelCount": 10
       },
       {
         "order": 78,
@@ -859,8 +907,11 @@
         "parent": "Datça / Muğla",
         "title": "Palamutbükü'nün En İyi 10 Oteli",
         "slug": "palamutbukunun-en-iyi-10-oteli",
-        "status": "pending_validation",
-        "profile": "berrak denizi ve sahil pansiyonlarıyla Datça yarımadasında huzurlu koy"
+        "status": "published",
+        "profile": "berrak denizi ve sahil pansiyonlarıyla Datça yarımadasında huzurlu koy",
+        "coverImage": "/assets/guides/palamutbuku.webp",
+        "validatedAt": "2026-08-28T09:08:00+03:00",
+        "hotelCount": 10
       },
       {
         "order": 79,
@@ -868,8 +919,11 @@
         "parent": "Datça / Muğla",
         "title": "Eski Datça'nın En İyi 10 Oteli",
         "slug": "eski-datcanin-en-iyi-10-oteli",
-        "status": "pending_validation",
-        "profile": "taş evleri, begonvilli sokakları ve butik konaklamalarıyla karakterli mahalle"
+        "status": "published",
+        "profile": "taş evleri, begonvilli sokakları ve butik konaklamalarıyla karakterli mahalle",
+        "coverImage": "/assets/guides/eski-datca.webp",
+        "validatedAt": "2026-08-28T09:08:00+03:00",
+        "hotelCount": 10
       },
       {
         "order": 80,
@@ -877,8 +931,11 @@
         "parent": "Denizli",
         "title": "Pamukkale'nin En İyi 10 Oteli",
         "slug": "pamukkalenin-en-iyi-10-oteli",
-        "status": "pending_validation",
-        "profile": "travertenleri, antik kent ve termal kaynaklarıyla dünyaca tanınan rota"
+        "status": "published",
+        "profile": "travertenleri, antik kent ve termal kaynaklarıyla dünyaca tanınan rota",
+        "coverImage": "/assets/guides/pamukkale.webp",
+        "validatedAt": "2026-08-28T09:08:00+03:00",
+        "hotelCount": 10
       },
       {
         "order": 81,
@@ -886,8 +943,11 @@
         "parent": "Nevşehir / Kapadokya",
         "title": "Uçhisar'ın En İyi 10 Oteli",
         "slug": "uchisarin-en-iyi-10-oteli",
-        "status": "pending_validation",
-        "profile": "kale manzarası ve mağara otelleriyle Kapadokya’nın yüksek seyir noktası"
+        "status": "published",
+        "profile": "kale manzarası ve mağara otelleriyle Kapadokya’nın yüksek seyir noktası",
+        "coverImage": "/assets/guides/uchisar.webp",
+        "validatedAt": "2026-08-28T09:08:00+03:00",
+        "hotelCount": 10
       },
       {
         "order": 82,
@@ -895,7 +955,7 @@
         "parent": "Nevşehir",
         "title": "Avanos'un En İyi 10 Oteli",
         "slug": "avanosun-en-iyi-10-oteli",
-        "status": "pending_validation",
+        "status": "queued_next",
         "profile": "Kızılırmak kıyısı ve çömlek atölyeleriyle kültür odaklı Kapadokya kasabası"
       },
       {
@@ -904,7 +964,7 @@
         "parent": "Ürgüp / Nevşehir",
         "title": "Ortahisar'ın En İyi 10 Oteli",
         "slug": "ortahisarin-en-iyi-10-oteli",
-        "status": "pending_validation",
+        "status": "queued_next",
         "profile": "kale çevresi ve taş konaklarıyla sakin Kapadokya alternatifi"
       },
       {
@@ -913,7 +973,7 @@
         "parent": "Sakarya",
         "title": "Sapanca'nın En İyi 10 Oteli",
         "slug": "sapancanin-en-iyi-10-oteli",
-        "status": "pending_validation",
+        "status": "queued_next",
         "profile": "göl manzarası, doğa otelleri ve İstanbul’a yakınlığıyla hafta sonu rotası"
       },
       {
@@ -922,7 +982,7 @@
         "parent": "Kartepe / Kocaeli",
         "title": "Maşukiye'nin En İyi 10 Oteli",
         "slug": "masukiyenin-en-iyi-10-oteli",
-        "status": "pending_validation",
+        "status": "queued_next",
         "profile": "orman, dere ve dağ manzaralarıyla doğa kaçamağı merkezi"
       },
       {
@@ -931,9 +991,13 @@
         "parent": "Kocaeli",
         "title": "Kartepe'nin En İyi 10 Oteli",
         "slug": "kartepenin-en-iyi-10-oteli",
-        "status": "pending_validation",
+        "status": "queued_next",
         "profile": "kış sporları ve Sapanca çevresine erişimiyle dört mevsim dağ rotası"
       }
-    ]
+    ],
+    "publishedAt": "2026-08-28T09:18:00+03:00",
+    "publishedCount": 20,
+    "skippedCount": 0,
+    "validation": "SearchAPI live: exactly 10 hotels with images required"
   }
 }
