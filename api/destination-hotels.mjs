@@ -56,6 +56,20 @@ const destinations = new Map([
   ['sapancanin-en-iyi-10-oteli', 'Sapanca, Sakarya'],
   ['masukiyenin-en-iyi-10-oteli', 'Maşukiye, Kartepe, Kocaeli'],
   ['kartepenin-en-iyi-10-oteli', 'Kartepe, Kocaeli'],
+  ['abantin-en-iyi-10-oteli', 'Abant, Bolu'],
+  ['amasranin-en-iyi-10-oteli', 'Amasra, Bartın'],
+  ['safranbolunun-en-iyi-10-oteli', 'Safranbolu, Karabük'],
+  ['ayder-yaylasinin-en-iyi-10-oteli', 'Ayder Yaylası, Çamlıhemşin, Rize'],
+  ['camlihemsinin-en-iyi-10-oteli', 'Çamlıhemşin, Rize'],
+  ['uzungolun-en-iyi-10-oteli', 'Uzungöl, Çaykara, Trabzon'],
+  ['sultanahmetin-en-iyi-10-oteli', 'Sultanahmet, Fatih, İstanbul'],
+  ['karakoyun-en-iyi-10-oteli', 'Karaköy, Beyoğlu, İstanbul'],
+  ['galatanin-en-iyi-10-oteli', 'Galata, Beyoğlu, İstanbul'],
+  ['besiktasin-en-iyi-10-oteli', 'Beşiktaş, İstanbul'],
+  ['sislinin-en-iyi-10-oteli', 'Şişli, İstanbul'],
+  ['kadikoyun-en-iyi-10-oteli', 'Kadıköy, İstanbul'],
+  ['uludagin-en-iyi-10-oteli', 'Uludağ, Bursa'],
+  ['erciyesin-en-iyi-10-oteli', 'Erciyes, Kayseri'],
 ]);
 const safeUrl = (value) => { try { const url = new URL(value); return ['http:', 'https:'].includes(url.protocol) ? url.href : null; } catch { return null; } };
 const imageUrl = (item) => {

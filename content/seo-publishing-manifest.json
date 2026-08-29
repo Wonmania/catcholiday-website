@@ -955,7 +955,7 @@
         "parent": "Nevşehir",
         "title": "Avanos'un En İyi 10 Oteli",
         "slug": "avanosun-en-iyi-10-oteli",
-        "status": "queued_next",
+        "status": "rolled_forward",
         "profile": "Kızılırmak kıyısı ve çömlek atölyeleriyle kültür odaklı Kapadokya kasabası"
       },
       {
@@ -964,7 +964,7 @@
         "parent": "Ürgüp / Nevşehir",
         "title": "Ortahisar'ın En İyi 10 Oteli",
         "slug": "ortahisarin-en-iyi-10-oteli",
-        "status": "queued_next",
+        "status": "rolled_forward",
         "profile": "kale çevresi ve taş konaklarıyla sakin Kapadokya alternatifi"
       },
       {
@@ -973,7 +973,7 @@
         "parent": "Sakarya",
         "title": "Sapanca'nın En İyi 10 Oteli",
         "slug": "sapancanin-en-iyi-10-oteli",
-        "status": "queued_next",
+        "status": "rolled_forward",
         "profile": "göl manzarası, doğa otelleri ve İstanbul’a yakınlığıyla hafta sonu rotası"
       },
       {
@@ -982,7 +982,7 @@
         "parent": "Kartepe / Kocaeli",
         "title": "Maşukiye'nin En İyi 10 Oteli",
         "slug": "masukiyenin-en-iyi-10-oteli",
-        "status": "queued_next",
+        "status": "rolled_forward",
         "profile": "orman, dere ve dağ manzaralarıyla doğa kaçamağı merkezi"
       },
       {
@@ -991,7 +991,7 @@
         "parent": "Kocaeli",
         "title": "Kartepe'nin En İyi 10 Oteli",
         "slug": "kartepenin-en-iyi-10-oteli",
-        "status": "queued_next",
+        "status": "rolled_forward",
         "profile": "kış sporları ve Sapanca çevresine erişimiyle dört mevsim dağ rotası"
       }
     ],
@@ -999,5 +999,184 @@
     "publishedCount": 20,
     "skippedCount": 0,
     "validation": "SearchAPI live: exactly 10 hotels with images required"
+  },
+  "batch5": {
+    "publishDate": "2026-08-29",
+    "version": "2026.08.29-b5",
+    "topicKey": "best-hotels",
+    "status": "pending_validation",
+    "pages": [
+      {
+        "order": 82,
+        "name": "Avanos",
+        "parent": "Nevşehir",
+        "title": "Avanos'un En İyi 10 Oteli",
+        "slug": "avanosun-en-iyi-10-oteli",
+        "status": "pending_validation",
+        "profile": "Kızılırmak kıyısı ve çömlek atölyeleriyle kültür odaklı Kapadokya kasabası"
+      },
+      {
+        "order": 83,
+        "name": "Ortahisar",
+        "parent": "Ürgüp / Nevşehir",
+        "title": "Ortahisar'ın En İyi 10 Oteli",
+        "slug": "ortahisarin-en-iyi-10-oteli",
+        "status": "pending_validation",
+        "profile": "kale çevresi ve taş konaklarıyla sakin Kapadokya alternatifi"
+      },
+      {
+        "order": 84,
+        "name": "Sapanca",
+        "parent": "Sakarya",
+        "title": "Sapanca'nın En İyi 10 Oteli",
+        "slug": "sapancanin-en-iyi-10-oteli",
+        "status": "pending_validation",
+        "profile": "göl manzarası, doğa otelleri ve İstanbul’a yakınlığıyla hafta sonu rotası"
+      },
+      {
+        "order": 85,
+        "name": "Maşukiye",
+        "parent": "Kartepe / Kocaeli",
+        "title": "Maşukiye'nin En İyi 10 Oteli",
+        "slug": "masukiyenin-en-iyi-10-oteli",
+        "status": "pending_validation",
+        "profile": "orman, dere ve dağ manzaralarıyla doğa kaçamağı merkezi"
+      },
+      {
+        "order": 86,
+        "name": "Kartepe",
+        "parent": "Kocaeli",
+        "title": "Kartepe'nin En İyi 10 Oteli",
+        "slug": "kartepenin-en-iyi-10-oteli",
+        "status": "pending_validation",
+        "profile": "kış sporları ve Sapanca çevresine erişimiyle dört mevsim dağ rotası"
+      },
+      {
+        "order": 87,
+        "name": "Abant",
+        "parent": "Bolu",
+        "title": "Abant'ın En İyi 10 Oteli",
+        "slug": "abantin-en-iyi-10-oteli",
+        "status": "pending_validation",
+        "profile": "göl, orman ve dört mevsim doğa manzarasıyla sakin kaçış rotası"
+      },
+      {
+        "order": 88,
+        "name": "Amasra",
+        "parent": "Bartın",
+        "title": "Amasra'nın En İyi 10 Oteli",
+        "slug": "amasranin-en-iyi-10-oteli",
+        "status": "pending_validation",
+        "profile": "Karadeniz koyları, tarihî kale ve balıkçı kasabası atmosferiyle karakterli rota"
+      },
+      {
+        "order": 89,
+        "name": "Safranbolu",
+        "parent": "Karabük",
+        "title": "Safranbolu'nun En İyi 10 Oteli",
+        "slug": "safranbolunun-en-iyi-10-oteli",
+        "status": "pending_validation",
+        "profile": "korunan Osmanlı evleri ve tarihî çarşısıyla kültür odaklı konaklama merkezi"
+      },
+      {
+        "order": 90,
+        "name": "Ayder Yaylası",
+        "parent": "Çamlıhemşin / Rize",
+        "title": "Ayder Yaylası'nın En İyi 10 Oteli",
+        "slug": "ayder-yaylasinin-en-iyi-10-oteli",
+        "status": "pending_validation",
+        "profile": "sisli dağları, şelaleleri ve yayla konaklamalarıyla güçlü doğa rotası"
+      },
+      {
+        "order": 91,
+        "name": "Çamlıhemşin",
+        "parent": "Rize",
+        "title": "Çamlıhemşin'in En İyi 10 Oteli",
+        "slug": "camlihemsinin-en-iyi-10-oteli",
+        "status": "pending_validation",
+        "profile": "Fırtına Vadisi, taş köprüler ve dağ evleriyle keşif odaklı Karadeniz merkezi"
+      },
+      {
+        "order": 92,
+        "name": "Uzungöl",
+        "parent": "Çaykara / Trabzon",
+        "title": "Uzungöl'ün En İyi 10 Oteli",
+        "slug": "uzungolun-en-iyi-10-oteli",
+        "status": "pending_validation",
+        "profile": "ormanlı dağlar arasındaki gölü ve ahşap konaklamalarıyla tanınan yayla rotası"
+      },
+      {
+        "order": 93,
+        "name": "Sultanahmet",
+        "parent": "Fatih / İstanbul",
+        "title": "Sultanahmet'in En İyi 10 Oteli",
+        "slug": "sultanahmetin-en-iyi-10-oteli",
+        "status": "pending_validation",
+        "profile": "tarihî yarımadanın simge yapılarına yürüyüş mesafesindeki konaklama bölgesi"
+      },
+      {
+        "order": 94,
+        "name": "Karaköy",
+        "parent": "Beyoğlu / İstanbul",
+        "title": "Karaköy'ün En İyi 10 Oteli",
+        "slug": "karakoyun-en-iyi-10-oteli",
+        "status": "pending_validation",
+        "profile": "Boğaz kıyısı, tasarım mekânları ve Galata bağlantısıyla canlı şehir merkezi"
+      },
+      {
+        "order": 95,
+        "name": "Galata",
+        "parent": "Beyoğlu / İstanbul",
+        "title": "Galata'nın En İyi 10 Oteli",
+        "slug": "galatanin-en-iyi-10-oteli",
+        "status": "pending_validation",
+        "profile": "tarihî kule çevresi, taş sokaklar ve şehir manzaralı butik otellerle öne çıkan bölge"
+      },
+      {
+        "order": 96,
+        "name": "Beşiktaş",
+        "parent": "İstanbul",
+        "title": "Beşiktaş'ın En İyi 10 Oteli",
+        "slug": "besiktasin-en-iyi-10-oteli",
+        "status": "pending_validation",
+        "profile": "Boğaz kıyısı, ulaşım ağı ve şehir yaşamını birleştiren merkezi konaklama bölgesi"
+      },
+      {
+        "order": 97,
+        "name": "Şişli",
+        "parent": "İstanbul",
+        "title": "Şişli'nin En İyi 10 Oteli",
+        "slug": "sislinin-en-iyi-10-oteli",
+        "status": "pending_validation",
+        "profile": "iş merkezleri, alışveriş ve metro bağlantılarıyla güçlü şehir oteli bölgesi"
+      },
+      {
+        "order": 98,
+        "name": "Kadıköy",
+        "parent": "İstanbul",
+        "title": "Kadıköy'ün En İyi 10 Oteli",
+        "slug": "kadikoyun-en-iyi-10-oteli",
+        "status": "pending_validation",
+        "profile": "çarşı, sahil ve kültür yaşamıyla Anadolu yakasının hareketli konaklama merkezi"
+      },
+      {
+        "order": 99,
+        "name": "Uludağ",
+        "parent": "Bursa",
+        "title": "Uludağ'ın En İyi 10 Oteli",
+        "slug": "uludagin-en-iyi-10-oteli",
+        "status": "pending_validation",
+        "profile": "kayak pistleri, kar manzarası ve dağ tesisleriyle Türkiye’nin klasik kış rotası"
+      },
+      {
+        "order": 100,
+        "name": "Erciyes",
+        "parent": "Kayseri",
+        "title": "Erciyes'in En İyi 10 Oteli",
+        "slug": "erciyesin-en-iyi-10-oteli",
+        "status": "pending_validation",
+        "profile": "yüksek standartlı kayak merkezi ve şehir bağlantısıyla kış sporları destinasyonu"
+      }
+    ]
   }
 }
