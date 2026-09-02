@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "npx serve . -l 4173",
-    "build": "node build.mjs"
+    "build": "node build.mjs",
+    "audit:seo": "npm run build && node scripts/audit-hotel-content.mjs"
   }
 }
